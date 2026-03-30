@@ -5,7 +5,7 @@
 # Example:
 # calculate_total(4.5, 3) -> 13.5
 
-def calculate_total(price, quantity):
+def calculate_total(price * quantity):
     # Write your code here
     pass
 
@@ -13,7 +13,7 @@ def calculate_total(price, quantity):
 def main():
     price = float(input("Enter price: "))
     quantity = int(input("Enter quantity: "))
-    total = calculate_total(price, quantity)
+    total = calculate_total(price * quantity)
     print(total)
 
 
