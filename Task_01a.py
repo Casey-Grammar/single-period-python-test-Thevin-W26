@@ -14,6 +14,7 @@ def main():
     quantity = int(input("Enter quantity: "))
     total = calculate_total(price, quantity)
     print(total)
+    #
 
 
 if __name__ == "__main__":
